@@ -1,0 +1,121 @@
+{
+  "carrier_or_forwarder": "Northwind Freight Partners",
+  "quote_ref": "NFP/Q/88213",
+  "origin": "Shanghai",
+  "destination": "Rotterdam",
+  "mode": "sea_fcl",
+  "incoterm": "FCA",
+  "equipment": "1x40HC",
+  "validity_until": "2026-11-15",
+  "transit_days": 29,
+  "charges": [
+    {
+      "name": "Ocean freight",
+      "category": "freight",
+      "amount": 1720.0,
+      "currency": "USD",
+      "basis": "per container",
+      "quantity": null,
+      "status": "included",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Ocean freight for 1x40HC from Shanghai to Rotterdam is USD 1,720.00 per container."
+      }
+    },
+    {
+      "name": "Origin terminal handling",
+      "category": "origin",
+      "amount": 150.0,
+      "currency": "USD",
+      "basis": null,
+      "quantity": null,
+      "status": "included",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Terminal handling at origin is USD 150.00"
+      }
+    },
+    {
+      "name": "Documentation fee",
+      "category": "documentation",
+      "amount": 50.0,
+      "currency": "USD",
+      "basis": null,
+      "quantity": null,
+      "status": "included",
+      "evidence": {
+        "page": 1,
+        "quote_text": "our documentation fee is USD 50.00"
+      }
+    },
+    {
+      "name": "Destination terminal handling (DTHC)",
+      "category": "destination",
+      "amount": 230.0,
+      "currency": "USD",
+      "basis": null,
+      "quantity": null,
+      "status": "included",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Destination terminal handling (DTHC) at Rotterdam is USD 230.00."
+      }
+    },
+    {
+      "name": "On-carriage to consignee",
+      "category": "destination",
+      "amount": 400.0,
+      "currency": "USD",
+      "basis": null,
+      "quantity": null,
+      "status": "estimated",
+      "evidence": {
+        "page": 1,
+        "quote_text": "On-carriage to the consignee's warehouse is estimated at USD 400.00 and will be invoiced at actuals."
+      }
+    },
+    {
+      "name": "Import customs clearance",
+      "category": "customs",
+      "amount": null,
+      "currency": null,
+      "basis": null,
+      "quantity": null,
+      "status": "at_cost",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Import customs clearance at destination will be charged at cost."
+      }
+    },
+    {
+      "name": "Peak season surcharge",
+      "category": "surcharge",
+      "amount": null,
+      "currency": null,
+      "basis": null,
+      "quantity": null,
+      "status": "at_cost",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Peak season surcharge may apply depending on sailing date."
+      }
+    }
+  ],
+  "quoted_total": 2100.0,
+  "quoted_total_currency": "USD",
+  "quoted_total_evidence": {
+    "page": 1,
+    "quote_text": "Total quoted: USD 2,100.00"
+  },
+  "exclusions": [
+    {
+      "page": 1,
+      "quote_text": "Import customs clearance at destination will be charged at cost."
+    },
+    {
+      "page": 1,
+      "quote_text": "Peak season surcharge may apply depending on sailing date."
+    }
+  ],
+  "extraction_warnings": []
+}

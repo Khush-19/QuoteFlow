@@ -1,0 +1,134 @@
+{
+  "carrier_or_forwarder": "Blue Harbor Logistics",
+  "quote_ref": "BHL-2026-0417",
+  "origin": "Shanghai, CN",
+  "destination": "Rotterdam, NL",
+  "mode": "sea_fcl",
+  "incoterm": "FOB",
+  "equipment": "1x40HC",
+  "validity_until": "2026-11-30",
+  "transit_days": 32,
+  "charges": [
+    {
+      "name": "Ocean freight",
+      "category": "freight",
+      "amount": 1850.0,
+      "currency": "USD",
+      "basis": "per container",
+      "quantity": null,
+      "status": "included",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Ocean freight Shanghai - Rotterdam USD 1,850.00"
+      }
+    },
+    {
+      "name": "BAF (bunker adjustment)",
+      "category": "surcharge",
+      "amount": 310.0,
+      "currency": "USD",
+      "basis": "per container",
+      "quantity": null,
+      "status": "included",
+      "evidence": {
+        "page": 1,
+        "quote_text": "BAF (bunker adjustment) USD 310.00"
+      }
+    },
+    {
+      "name": "Origin THC",
+      "category": "origin",
+      "amount": 145.0,
+      "currency": "USD",
+      "basis": "per container",
+      "quantity": null,
+      "status": "included",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Origin THC USD 145.00"
+      }
+    },
+    {
+      "name": "Export customs clearance",
+      "category": "customs",
+      "amount": 85.0,
+      "currency": "USD",
+      "basis": "per shipment",
+      "quantity": null,
+      "status": "included",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Export customs clearance USD 85.00"
+      }
+    },
+    {
+      "name": "Documentation fee (B/L)",
+      "category": "documentation",
+      "amount": 65.0,
+      "currency": "USD",
+      "basis": "per shipment",
+      "quantity": null,
+      "status": "included",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Documentation fee (B/L) USD 65.00"
+      }
+    },
+    {
+      "name": "Destination charges",
+      "category": "destination",
+      "amount": null,
+      "currency": null,
+      "basis": null,
+      "quantity": null,
+      "status": "excluded",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Destination charges, import duties and taxes are excluded and payable by the consignee."
+      }
+    },
+    {
+      "name": "Import duties and taxes",
+      "category": "customs",
+      "amount": null,
+      "currency": null,
+      "basis": null,
+      "quantity": null,
+      "status": "excluded",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Destination charges, import duties and taxes are excluded and payable by the consignee."
+      }
+    },
+    {
+      "name": "Cargo insurance",
+      "category": "insurance",
+      "amount": null,
+      "currency": null,
+      "basis": null,
+      "quantity": null,
+      "status": "excluded",
+      "evidence": {
+        "page": 1,
+        "quote_text": "Cargo insurance is not included unless requested in writing."
+      }
+    }
+  ],
+  "quoted_total": 2455.0,
+  "quoted_total_currency": "USD",
+  "quoted_total_evidence": {
+    "page": 1,
+    "quote_text": "Total USD 2,455.00"
+  },
+  "exclusions": [
+    {
+      "page": 1,
+      "quote_text": "Destination charges, import duties and taxes are excluded and payable by the consignee."
+    },
+    {
+      "page": 1,
+      "quote_text": "Cargo insurance is not included unless requested in writing."
+    }
+  ],
+  "extraction_warnings": []
+}
